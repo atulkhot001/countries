@@ -1,9 +1,10 @@
 let cl = console.log;
 
-var info = document.getElementById('info');
+
 let result = '';
 countries.forEach((country) => {
     result +=`
+
         <div class="col">
             <div class="card">
                 <div class="img-container">
@@ -22,4 +23,5 @@ countries.forEach((country) => {
             </div>
         </div>`
 })
+var info = document.getElementById('info');
 info.innerHTML=result;
